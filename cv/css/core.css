@@ -9,22 +9,25 @@
     src: url(../fonts/DancingScript-VariableFont_wght.ttf);
 }
 
-/* width */
+/* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
-    width: 0px;
-}
-
-html {
-    scroll-behavior: smooth;
+    display: none;
 }
 
 body {
     margin: 0px;
     padding: 20px;
-    background-image: url(../images/38610.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
     background-position: center;
+    background: url(../images/38610.jpg) no-repeat center center fixed;
+    
+    scroll-behavior: smooth;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none !important;  /* IE and Edge */
+    scrollbar-width: none !important;  /* Firefox */
 }
 
 p {
@@ -49,14 +52,13 @@ a:hover, a:active {
 }
 
 .nav div {
-    display: flex;
-    vertical-align: middle;
-    width: fit-content;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 
-.nav a {
+.nav div a {
+    display: block;
+    width: 100% !important;
+    text-align: center;
     color: black;
     font-family: Abel;
     font-size: 20px;
@@ -201,6 +203,7 @@ a:hover, a:active {
 .designation {
     font-size: 24px;
     font-weight: bold;
+    overflow-x: hidden;
 }
 
 .company {
