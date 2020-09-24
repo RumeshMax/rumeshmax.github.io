@@ -377,14 +377,17 @@ a:hover, a:active {
     .nav div {
         display: block;
     }
-    
-    .nav a {
+
+    .nav div a {
         display: block;
         padding-bottom: 20px;
+        width: 100% !important;
+        text-align: left;
         color: black;
         font-family: Abel;
         font-size: 20px;
-        border: 0px !important;
+        font-weight: bold;
+        text-decoration: none;
     }
     
     .nav a:link, .nav a:visited {
