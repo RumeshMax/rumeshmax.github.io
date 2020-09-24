@@ -196,18 +196,18 @@ a:hover, a:active {
 
 .work-period {
     margin-top: -3px;
-    margin-bottom: -3px;
+    margin-bottom: -2px;
     font-size: 16px;
 }
 
 .designation {
-    font-size: 24px;
+    margin-bottom: 2px;
+    font-size: 21px;
     font-weight: bold;
-    overflow-x: hidden;
 }
 
 .company {
-    margin-top: -3px;
+    margin-top: -2px;
     font-size: 16px;
 }
 
