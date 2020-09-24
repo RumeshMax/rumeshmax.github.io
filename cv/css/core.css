@@ -184,7 +184,7 @@ a:hover, a:active {
     display: block;
     width: 60px;
     height: auto;
-    padding-right: 10px;
+    padding-right: 7px;
 }
 
 .work-title {
@@ -349,7 +349,7 @@ a:hover, a:active {
 @media screen and (min-width: 1024px) {
     body {
         margin: 0px;
-        padding: 10px 80px 10px 240px !important;
+        padding: 10px 20px 10px 180px !important;
     }
 
     .work-experience {
@@ -362,8 +362,12 @@ a:hover, a:active {
         padding: 10px 0px 20px 0px;
     }
 
+    .sidebar {
+        padding-right: 20px !important;
+    }
+
     .content {
-        padding: 20px 40px 20px 40px;
+        padding: 20px 40px 20px 0px;
     }
 
     .nav {
@@ -422,7 +426,7 @@ a:hover, a:active {
 @media screen and (min-width: 1200px) {
     body {
         margin: 0px;
-        padding: 10px 120px 10px 260px !important;
+        padding: 10px 20px 10px 180px !important;
     }
 
     .work-experience {
