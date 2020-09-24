@@ -14,6 +14,10 @@
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 20px;
@@ -22,8 +26,6 @@ body {
     -o-background-position: center;
     background-position: center;
     background: url(../images/38610.jpg) no-repeat center center fixed;
-    
-    scroll-behavior: smooth;
 
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none !important;  /* IE and Edge */
