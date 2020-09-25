@@ -276,7 +276,21 @@ a:hover, a:active {
     color: white;
 }
 
+.academic-project {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.header-underline {
+    border-bottom: 1px solid black;
+}
+
+.honor-award {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 
