@@ -23,24 +23,32 @@ ion-icon {
 }
 
 html {
-    /* -webkit-background-position: center;
-    -moz-background-position: center;
-    -o-background-position: center;
-    background-position: center; */
+    /* background-position issue, solution - iOS Safafi Issue - START */
     background: url(../images/38610.jpg) no-repeat center center fixed;
-    background-size: 150%;
-    /* height: 100%;
-    overflow: hidden; */
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    /* background-position issue, solution - iOS Safafi Issue - FINISH */
 }
 
 body {
-    /* height: 100%;
-    overflow: auto; */
-
-    scroll-behavior: smooth;
+    /* background-position issue, solution - iOS Safafi Issue - START */
+    height: 100%;
+    overflow: auto;
+    /* background-position issue, solution - iOS Safafi Issue - FINISH */
+    
     margin: 0px;
     padding: 20px;
-    
+}
+
+.wrapper {
+    /* background-position issue, solution - iOS Safafi Issue - START */
+    height: 100%;
+    overflow: auto;
+    /* background-position issue, solution - iOS Safafi Issue - FINISH */
+
+    scroll-behavior: smooth;
+
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none !important;  /* IE and Edge */
     scrollbar-width: none !important;  /* Firefox */
@@ -118,8 +126,8 @@ a:hover, a:active {
 .title {
     grid-area: title;
     text-align: center;
-    /* padding: 50px 0px 20px 0px; // with nav on*/
     padding: 10px 0px 20px 0px;
+    margin-top: 10px;
 }
 
 .profile-pic {
@@ -162,13 +170,11 @@ a:hover, a:active {
     grid-area: left-content;
     padding: 20px 40px 20px 0px;
     text-align: left;
-    /* background-color: lightgrey; */
 }
 
 .content {
     grid-area: content;
     text-align: left;
-    /* background-color: azure; */
 }
 
 .footer {
@@ -303,6 +309,10 @@ a:hover, a:active {
 
 .header-underline {
     border-bottom: 1px solid black;
+}
+
+#honors_and_awards {
+    margin-bottom: -10px;
 }
 
 .honor-award {
