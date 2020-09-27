@@ -25,12 +25,14 @@ ion-icon {
 html {
     /* -webkit-background-position: center;
     -moz-background-position: center;
-    -o-background-position: center; */
-    background-position: center;
+    -o-background-position: center;
+    background-position: center; */
     background: url(../images/38610.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
+
+    
 }
 
 body {
