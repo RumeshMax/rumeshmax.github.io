@@ -23,22 +23,27 @@ ion-icon {
 }
 
 html {
-    -webkit-background-position: center;
+    /* -webkit-background-position: center;
     -moz-background-position: center;
-    -o-background-position: center;
+    -o-background-position: center; */
     background-position: center;
     background: url(../images/38610.jpg) no-repeat center center fixed;
-
-    /* Hide scrollbar for IE, Edge and Firefox */
-    -ms-overflow-style: none !important;  /* IE and Edge */
-    scrollbar-width: none !important;  /* Firefox */
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
-    
+    height: 100%;
+    overflow: auto;
+
     scroll-behavior: smooth;
     margin: 0px;
     padding: 20px;
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none !important;  /* IE and Edge */
+    scrollbar-width: none !important;  /* Firefox */
 }
 
 p {
