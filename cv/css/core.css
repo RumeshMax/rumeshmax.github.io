@@ -28,16 +28,14 @@ html {
     -o-background-position: center;
     background-position: center; */
     background: url(../images/38610.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-
-    
+    background-size: 150%;
+    /* height: 100%;
+    overflow: hidden; */
 }
 
 body {
-    height: 100%;
-    overflow: auto;
+    /* height: 100%;
+    overflow: auto; */
 
     scroll-behavior: smooth;
     margin: 0px;
