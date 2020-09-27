@@ -283,12 +283,12 @@ a:hover, a:active {
 }
 
 .back-to-top:link, .back-to-top:visited {
-    color: black;
+    color: white;
 }
 
 .back-to-top:hover, .back-to-top:active {
     opacity: 1;
-    color: white;
+    color: black;
 }
 
 .academic-project {
