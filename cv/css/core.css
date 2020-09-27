@@ -23,12 +23,6 @@ ion-icon {
 }
 
 html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0px;
-    padding: 20px;
     -webkit-background-position: center;
     -moz-background-position: center;
     -o-background-position: center;
@@ -38,6 +32,13 @@ body {
     /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none !important;  /* IE and Edge */
     scrollbar-width: none !important;  /* Firefox */
+}
+
+body {
+    
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 20px;
 }
 
 p {
