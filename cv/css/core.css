@@ -108,6 +108,11 @@ a:hover, a:active {
     padding: 10px 0px 20px 0px;
 }
 
+.profile-pic {
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
 /* .grid div:nth-child(even) {
     background-color: red;
 }
@@ -319,6 +324,10 @@ a:hover, a:active {
     .footer {
         padding: 0px 40px 20px 40px;
     }
+
+    .honor-award {
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -346,6 +355,10 @@ a:hover, a:active {
     .footer {
         padding: 0px 40px 20px 40px;
     }
+
+    .honor-award {
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -372,6 +385,10 @@ a:hover, a:active {
 
     .footer {
         padding: 0px 40px 20px 40px;
+    }
+
+    .honor-award {
+        padding-bottom: 0px;
     }
 }
 
@@ -401,6 +418,10 @@ a:hover, a:active {
 
     .footer {
         padding: 0px 40px 20px 40px;
+    }
+
+    .honor-award {
+        padding-bottom: 0px;
     }
 
     .nav {
@@ -473,6 +494,10 @@ a:hover, a:active {
     .footer {
         padding: 0px 40px 20px 40px;
     }
+
+    .honor-award {
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -492,6 +517,10 @@ a:hover, a:active {
     .footer {
         padding: 0px 40px 20px 40px;
     }
+
+    .honor-award {
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -510,5 +539,9 @@ a:hover, a:active {
 
     .footer {
         padding: 0px 40px 20px 40px;
+    }
+
+    .honor-award {
+        padding-bottom: 0px;
     }
 }
