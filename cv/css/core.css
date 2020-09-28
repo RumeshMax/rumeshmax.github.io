@@ -38,7 +38,7 @@ body {
     /* background-position issue, solution - iOS Safafi Issue - FINISH */
     
     margin: 0px;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .wrapper {
@@ -72,7 +72,9 @@ a:hover, a:active {
     display: block;
     height: auto;
     width: auto;
-    margin: 0px 0px 20px 0px;
+    padding-bottom: 20px;
+    margin: 20px 0px 0px 0px;
+    border-bottom: 1px solid black;
 }
 
 .nav div {
@@ -311,8 +313,8 @@ a:hover, a:active {
     border-bottom: 1px solid black;
 }
 
-#honors_and_awards {
-    margin-bottom: -10px;
+.honors_and_awards {
+    margin-bottom: 10px;
 }
 
 .honor-award {
@@ -326,15 +328,15 @@ a:hover, a:active {
 @media screen and (min-width: 480px) {
     body {
         margin: 0px;
-        padding: 10px 0px !important;
+        padding: 10px 20px !important;
     }
 
     .header {
-        margin: 40px;
+        margin: 40px 20px;
     }
 
     .left-content {
-        padding-left: 40px !important;
+        padding-left: 20px !important;
     }
 
     .work-experience {
@@ -342,11 +344,11 @@ a:hover, a:active {
     }
 
     .content {
-        padding: 20px 30px 20px 40px;
+        padding: 20px 30px 20px 20px;
     }
 
     .footer {
-        padding: 0px 40px 20px 40px;
+        padding: 0px 40px 20px 20px;
     }
 
     .honor-award {
@@ -361,11 +363,11 @@ a:hover, a:active {
     }
 
     .header {
-        margin: 40px;
+        margin: 40px 20px;
     }
 
     .left-content {
-        padding-left: 40px !important;
+        padding-left: 20px !important;
     }
 
     .work-experience {
@@ -373,11 +375,11 @@ a:hover, a:active {
     }
 
     .content {
-        padding: 20px 40px 20px 40px;
+        padding: 20px 40px 20px 20px;
     }
 
     .footer {
-        padding: 0px 40px 20px 40px;
+        padding: 0px 40px 20px 20px;
     }
 
     .honor-award {
@@ -455,6 +457,7 @@ a:hover, a:active {
         z-index: 999;
         margin: 0px;
         width: auto;
+        border-bottom: 0px;
     }
 
     .nav div {
