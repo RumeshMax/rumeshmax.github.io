@@ -38,7 +38,7 @@ body {
     /* background-position issue, solution - iOS Safafi Issue - FINISH */
     
     margin: 0px;
-    padding: 10px 20px;
+    padding: 0px;
 }
 
 .wrapper {
@@ -73,7 +73,6 @@ a:hover, a:active {
     height: auto;
     width: auto;
     padding-bottom: 20px;
-    margin: 20px 0px 0px 0px;
     border-bottom: 1px solid black;
 }
 
@@ -142,7 +141,7 @@ a:hover, a:active {
 .title {
     grid-area: title;
     text-align: center;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 20px 20px 20px;
     margin-top: 10px;
 }
 
@@ -223,7 +222,7 @@ a:hover, a:active {
 
 .left-content {
     grid-area: left-content;
-    padding: 20px 40px 20px 0px;
+    padding: 20px 20px 20px 0px;
     text-align: left;
 }
 
@@ -319,15 +318,6 @@ a:hover, a:active {
     border-radius: 5px; */
 }
 
-/* .project-title {
-    display: block;
-    float: left;
-    width: auto;
-    height: auto;
-    font-size: 18px;
-    margin-top: 20px;
-} */
-
 .back-to-top {
     display: block;
     position: fixed;
@@ -420,9 +410,8 @@ a:hover, a:active {
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        margin: 0px;
-        padding: 10px 20px !important;
+    .nav {
+        margin: 20px 20px 0px 20px;
     }
 
     .header {
@@ -438,11 +427,11 @@ a:hover, a:active {
     }
 
     .content {
-        padding: 20px 30px 20px 20px;
+        padding: 20px;
     }
 
     .footer {
-        padding: 0px 40px 20px 20px;
+        padding: 0px 20px 20px 20px;
     }
 
     .honor-award {
@@ -451,9 +440,8 @@ a:hover, a:active {
 }
 
 @media screen and (min-width: 480px) {
-    body {
-        margin: 0px;
-        padding: 10px 20px !important;
+    .nav {
+        margin: 20px 20px 0px 20px;
     }
 
     .header {
@@ -469,11 +457,11 @@ a:hover, a:active {
     }
 
     .content {
-        padding: 20px 30px 20px 20px;
+        padding: 20px;
     }
 
     .footer {
-        padding: 0px 40px 20px 20px;
+        padding: 0px 20px 20px 20px;
     }
 
     .honor-award {
@@ -482,9 +470,8 @@ a:hover, a:active {
 }
 
 @media screen and (min-width: 600px) {
-    body {
-        margin: 0px;
-        padding: 10px 40px !important;
+    .nav {
+        margin: 20px 20px 0px 20px;
     }
 
     .header {
@@ -500,11 +487,11 @@ a:hover, a:active {
     }
 
     .content {
-        padding: 20px 40px 20px 20px;
+        padding: 20px;
     }
 
     .footer {
-        padding: 0px 40px 20px 20px;
+        padding: 0px 20px 20px 20px;
     }
 
     .honor-award {
@@ -513,9 +500,8 @@ a:hover, a:active {
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        margin: 0px;
-        padding: 10px 60px !important;
+    .nav {
+        margin: 20px 40px 0px 40px;
     }
 
     .header {
@@ -546,7 +532,7 @@ a:hover, a:active {
 @media screen and (min-width: 1024px) {
     body {
         margin: 0px;
-        padding: 10px 20px 10px 180px !important;
+        padding: 10px 20px 10px 120px !important;
     }
 
     .work-experience {
