@@ -267,6 +267,10 @@ a:hover, a:active {
     padding-right: 7px;
 }
 
+img:hover {
+    transform: scale(1.1);
+}
+
 .work-title {
     float: left;
     display: block;
