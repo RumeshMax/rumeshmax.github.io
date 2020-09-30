@@ -9,15 +9,17 @@
 
     <link href="css/core.css" rel="stylesheet">
 
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <!-- <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script> -->
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/core.js" charset="UTF-8"></script>
 </head>
 <body>
     <div class="wrapper">
-        <div class="grid" id="top">
+        <div class="grid" id="about_me">
             <div class="nav" id="nav">
-                <div><a href="#top">Contact Me</a></div>
+                <div><a href="#about_me">About Me</a></div>
                 <div><a href="#header">Profile | Vision</a></div>
                 <div><a href="#skills">Skills</a></div>
                 <div><a href="#work_experience">Work Experience</a></div>
@@ -401,7 +403,7 @@
                 </div>
             </div>
 
-            <a class="back-to-top" id="btn_back_to_top" href="#top">
+            <a class="back-to-top" id="btn_back_to_top" href="#about_me" title="Back to Top">
                 <ion-icon class="back-to-top-icon" name="chevron-up-circle-outline"></ion-icon>
             </a>
         </div>
