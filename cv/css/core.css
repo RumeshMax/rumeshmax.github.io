@@ -757,3 +757,46 @@ img:hover {
         padding-bottom: 0px;
     }
 }
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color:transparent;
+    cursor: pointer;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    border: none;
+    outline: none;
+
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .accordion:hover, .accordion:active {
+    background-color:transparent;
+    color: red;
+
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    background-color:transparent;
+    display: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+  }
