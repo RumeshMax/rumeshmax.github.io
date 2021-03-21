@@ -369,6 +369,10 @@ img:hover {
     animation: back_to_top_animate 0.75s forwards infinite;
 }
 
+.back-to-top:focus {
+    outline: none;
+}
+
 @keyframes back_to_top_animate {
     100% {
         transform: scale(1.3);
