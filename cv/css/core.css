@@ -76,7 +76,15 @@ a:hover, a:active {
     border-bottom: 1px solid black;
 }
 
-.nav div {
+.nav-menu-icon {
+    display: block;
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav-list.show {
     display: block;
 }
 
@@ -639,7 +647,15 @@ img:hover {
         border-bottom: 0px;
     }
 
-    .nav div {
+    /* .nav div {
+        display: block;
+    } */
+
+    .nav-menu-icon {
+        display: none;
+    }
+
+    .nav-list {
         display: block;
     }
 
@@ -808,3 +824,4 @@ img:hover {
     font-family: inherit;
     font-weight: inherit;
   }
+
