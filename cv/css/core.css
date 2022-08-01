@@ -482,7 +482,13 @@ img:hover {
     background-color: black;
 }
 
+.screen-size-web {
+    display: none;
+}
 
+.screen-size-mobile {
+    display: block;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -710,6 +716,14 @@ img:hover {
         "nav left-content left-content content content content"
         "nav footer footer footer footer footer";
         grid-gap: 3px;
+    }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
     }
 }
 
