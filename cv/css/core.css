@@ -519,6 +519,14 @@ img:hover {
     .honor-award {
         padding-bottom: 0px;
     }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 480px) {
@@ -548,6 +556,14 @@ img:hover {
 
     .honor-award {
         padding-bottom: 0px;
+    }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
     }
 }
 
@@ -579,6 +595,14 @@ img:hover {
     .honor-award {
         padding-bottom: 0px;
     }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -608,6 +632,14 @@ img:hover {
 
     .honor-award {
         padding-bottom: 0px;
+    }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
     }
 }
 
@@ -748,6 +780,14 @@ img:hover {
     .honor-award {
         padding-bottom: 0px;
     }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -771,6 +811,14 @@ img:hover {
     .honor-award {
         padding-bottom: 0px;
     }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -793,6 +841,14 @@ img:hover {
 
     .honor-award {
         padding-bottom: 0px;
+    }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
     }
 }
 
