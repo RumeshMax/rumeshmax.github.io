@@ -482,7 +482,13 @@ img:hover {
     background-color: black;
 }
 
+.screen-size-web {
+    display: none;
+}
 
+.screen-size-mobile {
+    display: block;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -512,6 +518,14 @@ img:hover {
 
     .honor-award {
         padding-bottom: 0px;
+    }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
     }
 }
 
@@ -543,6 +557,14 @@ img:hover {
     .honor-award {
         padding-bottom: 0px;
     }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -573,6 +595,14 @@ img:hover {
     .honor-award {
         padding-bottom: 0px;
     }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -602,6 +632,14 @@ img:hover {
 
     .honor-award {
         padding-bottom: 0px;
+    }
+
+    .screen-size-web {
+        display: none;
+    }
+    
+    .screen-size-mobile {
+        display: block;
     }
 }
 
@@ -711,6 +749,14 @@ img:hover {
         "nav footer footer footer footer footer";
         grid-gap: 3px;
     }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -733,6 +779,14 @@ img:hover {
 
     .honor-award {
         padding-bottom: 0px;
+    }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
     }
 }
 
@@ -757,6 +811,14 @@ img:hover {
     .honor-award {
         padding-bottom: 0px;
     }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -779,6 +841,14 @@ img:hover {
 
     .honor-award {
         padding-bottom: 0px;
+    }
+
+    .screen-size-web {
+        display: block;
+    }
+    
+    .screen-size-mobile {
+        display: none;
     }
 }
 
